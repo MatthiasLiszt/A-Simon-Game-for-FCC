@@ -1,0 +1,65 @@
+h1{color: blue;}
+
+.redbutton{
+  border-bottom-right-radius : 100%;
+  background-color: red;
+  display: inline-block;
+
+  position  : relative;
+  width:100px;
+  height:100px;
+  border: 12px solid #333;
+
+  //pointer-events:none;
+}
+
+.greenbutton{
+  border-bottom-left-radius : 100%;
+  background-color: green;
+  display: inline-block;
+
+  position  : relative;
+  width:100px;
+  height:100px;
+  border: 12px solid #333;
+
+  //pointer-events:none;
+}
+
+.yellowbutton{
+  border-top-left-radius : 100%;
+  background-color: yellow;
+  display: inline-block;
+
+  position  : relative;
+  width:100px;
+  height:100px;
+  border: 12px solid #333;
+
+  //pointer-events:none;
+}
+
+.bluebutton{
+  border-top-right-radius : 100%;
+  background-color: blue;
+  display: inline-block;
+
+  position  : relative;
+  width:100px;
+  height:100px;
+  border: 12px solid #333;
+
+  //pointer-events:none;
+} 
+
+.wrap{
+  width: 272px;
+  height:272px;
+  border-radius:100%;
+  position: relative;
+  text-align: center;
+  margin:auto;
+  background-color:#333;
+  top:10vh;
+  box-shadow: 0px 0px 12px #222;
+}
